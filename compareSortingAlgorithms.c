@@ -14,6 +14,7 @@ void merge(int arr[], int left, int middle, int right) {
   int x, y, z;
   int *rightArr = (int *)malloc(sizeR * sizeof(int));
   int *leftArr = (int *)malloc(sizeL * sizeof(int));
+  extraMemoryAllocated += sizeof(int)*2;
   for (y = 0; y < sizeR; y++)
     rightArr[y] = arr[middle+y+1];
   for (x = 0; x < sizeL; x++)
