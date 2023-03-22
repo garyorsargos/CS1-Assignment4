@@ -1,3 +1,10 @@
+/*
+Gary Orsargos
+ga080892
+3/21/2023
+Submission for "Assignment 4"
+*/
+
 #include <time.h>
 #include <stdlib.h>
 #include <stdio.h>
